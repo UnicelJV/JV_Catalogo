@@ -10,22 +10,24 @@
       background-color: #d8d0ad;
       padding: 20px;
       margin: 0;
-      position: relative;
     }
 
-    .logo {
-      position: absolute;
-      top: 20px;
-      right: 20px;
-      width: 100px;
-      height: auto;
+    .encabezado {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
     }
 
-    h1 {
-      text-align: center;
+    .encabezado h1 {
+      text-align: left;
       color: #333;
       font-style: italic;
-      margin-top: 0;
+      margin: 0;
+    }
+
+    .encabezado img {
+      width: 100px; /* Ajusta el tamaño del logo según necesites */
+      height: auto;
     }
 
     .catalogo {
@@ -92,18 +94,11 @@
 </head>
 <body>
 
-  <!-- Logo fijo a la derecha -->
-  <img src="https://dc543.4shared.com/img/Sv_KN4GMge/s24/19801761e58/icono?async&rand=0.10696577750863667" class="logo" alt="Logo">
-
-  <!-- Título centrado -->
-  <h1>Catálogo de Productos de Unicel</h1>
-  <div class="catalogo">
-    <div class="producto">
-      <img src="https://dc725.4shared.com/img/G6vHstqrjq/s24/1980004c790/IMG_20250712_121129?async&rand=0.06638805864325081" alt="Plato 3 divisiones">
-      <h3>Plato 3 Divisiones PL-10D</h3>
-      <p>Presentación: 20/25</p>
-      <div class="precio">$443.00x 1 colchon, + 3 colchones a $423.00</div>
-    </div>
+  <!-- ENCABEZADO CON LOGO -->
+  <div class="encabezado">
+    <h1>Catálogo de Productos de Unicel</h1>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Logo-example.png/200px-Logo-example.png" alt="Logo">
+  </div>
 
     <div class="producto">
       <img src="https://dc725.4shared.com/img/XBBMQGrNjq/s24/1980004d730/IMG_20250712_121235?async&rand=0.061776392742925235" alt="Plato redondo">
