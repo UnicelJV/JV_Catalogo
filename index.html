@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
+<!DOCTYPE html>
+<html lang="es">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,6 +11,7 @@
       font-family: Arial, sans-serif;
       background-color: #d8d0ad;
       padding: 20px;
+      margin: 0;
     }
     h1 {
       text-align: center;
@@ -21,29 +24,28 @@
       gap: 20px;
       margin-top: 30px;
     }
-.producto {
-  background-color: white;
-  border-radius: 10px;
-  padding: 15px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.producto img {
-  width: 200px; /* Tú puedes cambiar esto */
-  height: 200px; /* O ajustar solo el ancho si lo prefieres */
-  border-radius: 8px;
-  transition: transform 0.3s ease;
-  object-fit: contain; /* Muestra la imagen completa sin recortar */
-}
-
-.producto img:hover {
-  transform: scale(1.1);
-  z-index: 2;
-}
+    .producto {
+      background-color: white;
+      border-radius: 10px;
+      padding: 15px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .producto img {
+      width: 200px;
+      height: 200px;
+      border-radius: 8px;
+      transition: transform 0.3s ease;
+      object-fit: contain;
+    }
+    .producto img:hover {
+      transform: scale(1.1);
+      z-index: 2;
+    }
     .producto h3 {
       margin: 10px 0 5px;
     }
@@ -55,6 +57,15 @@
       color: green;
       font-weight: bold;
       margin-top: 10px;
+    }
+
+    footer {
+      background-color: #3a3a3a;
+      color: #f0f0f0;
+      text-align: center;
+      padding: 15px 10px;
+      margin-top: 40px;
+      font-size: 14px;
     }
   </style>
 </head>
@@ -140,5 +151,10 @@
     </div>
 
   </div>
+   <footer> 
+     Contacto 
+    © 2025 Catálogo de Productos de Unicel JV | Precios sujetos a cambio sin previo aviso
+     <div class="telefono">📞 5560079910  Pedidos y cotizaciones por whatsapp </div>
+  </footer>
 </body>
 </html>
