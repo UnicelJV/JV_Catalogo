@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catálogo de Productos de Unicel</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #d8d0ad;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+      font-style: italic;
+    }
+    .catalogo {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+.producto {
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.producto img {
+  width: 200px; /* Tú puedes cambiar esto */
+  height: 200px; /* O ajustar solo el ancho si lo prefieres */
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  object-fit: contain; /* Muestra la imagen completa sin recortar */
+}
+
+.producto img:hover {
+  transform: scale(1.1);
+  z-index: 2;
+}
+    .producto h3 {
+      margin: 10px 0 5px;
+    }
+    .producto p {
+      color: #666;
+      font-size: 14px;
+    }
+    .precio {
+      color: green;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Catálogo de Productos de Unicel </h1>
+  <div class="catalogo">
+
+    <div class="producto">
+      <img src="https://dc725.4shared.com/img/G6vHstqrjq/s24/1980004c790/IMG_20250712_121129?async&rand=0.06638805864325081" alt="Plato 3 divisiones">
+      <h3>Plato 3 Divisiones PL-10D</h3>
+      <p>Presentación: 20/25</p>
+      <div class="precio">$443.00x 1 colchon, + 3 colchones a $423.00</div>
+    </div>
+
+    <div class="producto">
+      <img src="https://dc725.4shared.com/img/XBBMQGrNjq/s24/1980004d730/IMG_20250712_121235?async&rand=0.061776392742925235" alt="Plato redondo">
+      <h3>Plato Redondo PL-10L</h3>
+      <p>Presentación: 20/25</p>
+      <div class="precio">$443.00x 1 colchon \ + 3 de colchones a $423.00 por colchon</div>
+    </div>
+
+    <div class="producto">
+      <img src="https://dc725.4shared.com/img/3GUbCv4Zjq/s24/1980004cf60/IMG_20250712_121312?async&rand=0.696718174990675" alt="Plato pozolero">
+      <h3>Plato Pozolero PH8</h3>
+      <p>Presentación: 20/25</p>
+      <div class="precio">$383.00 x 1 colchon \ + de 3 colchones $363.00 por colchon</div>
+    </div>
+
+    <div class="producto">
+      <img src="https://dc725.4shared.com/img/cu7XPyeNge/s24/1980004cf60/IMG_20250712_121414?async&rand=0.8698925912364961" alt="Charola 2 div">
+      <h3>Charola 2 Divisiones PL92D</h3>
+      <p>Presentación: 20/25</p>
+      <div class="precio">$423.00 x 1 colchon \ + 3 colchones $403.00 por colchon</div>
+    </div>
+
+    <div class="producto">
+      <img src="https://dc725.4shared.com/img/eNzGnaaGfa/s24/1980004d348/IMG_20250712_121510?async&rand=0.4750886063302947" alt="Charola 3 div">
+      <h3>Charola 3 Divisiones PL9D</h3>
+      <p>Presentación: 20/25</p>
+      <div class="precio">$423.00 x 1 colchon \ + 3 colchones $403.00 por colchon</div>
+    </div>
+
+    <div class="producto">
+      <img src="https://dc725.4shared.com/img/DwluP8mNfa/s24/1980004d348/IMG_20250712_121623?async&rand=0.93095556343433" alt="Charola CH85">
+      <h3>Charola CH85 </h3>
+      <p>Presentación: 10/50</p>
+      <div class="precio">$255.00 x 1 colchon \ + 3 colchones $235.00 por colchon</div>
+    </div>
+
+    <div class="producto">
+      <img src="https://dc725.4shared.com/img/Ry0Y6Qulfa/s24/1980004db18/IMG_20250712_121700?async&rand=0.2331068126383843" alt="Charola extendida CH7">
+      <h3>Charola Extendida CH7</h3>
+      <p>Presentación: 10/50</p>
+      <div class="precio">$460.00 x 1 colchon \ + 3 colchones $440.00 por colchon</div>
+    </div>
+
+    <div class="producto">
+      <img src="https://dc725.4shared.com/img/hwKh52jljq/s24/1980004df00/IMG_20250712_121742?async&rand=0.4218557765728851" alt="Plato cuadrado CH66">
+      <h3>Plato Cuadrado CH66</h3>
+      <p>Presentación: 10/50</p>
+      <div class="precio">$274.00 x colchon \ + 3 colchones $254.00 por colchon</div>
+    </div>
+
+    <div class="producto">
+      <img src="https://dc725.4shared.com/img/Rjig2FzAjq/s24/1980004d730/IMG_20250712_121821?async&rand=0.3197946555672365" alt="Plato pastelero">
+      <h3>Plato Pastelero PL-6</h3>
+      <p>Presentación: 20/25</p>
+      <div class="precio">$259.00 x 1 colchon \ + 3 colchones $239.00 por colchon</div>
+    </div>
+
+    <div class="producto">
+      <img src="https://dc725.4shared.com/img/pKwODdcuku/s24/1980004df00/IMG_20250712_121848?async&rand=0.28388434022068487" alt="Plato hondo chico">
+      <h3>Plato Hondo Chico PH6</h3>
+      <p>Presentación: 20/25</p>
+      <div class="precio">$278.00 x 1 colchon \ + 3 colchones $258.00 por colchon</div>
+    </div>
+
+    <div class="producto">
+      <img src="https://dc725.4shared.com/img/sH53m41Fge/s24/1980004e2e8/IMG_20250712_121930?async&rand=0.603466810219212" alt="Vaso No. 8">
+      <h3>Vaso #8</h3>
+      <p>Presentación: 20/50 (1,000 pzas)</p>
+      <div class="precio">$420.00 x caja \ + 3 cajas $400.00 por caja</div>
+    </div>
+
+  </div>
+</body>
+</html>
